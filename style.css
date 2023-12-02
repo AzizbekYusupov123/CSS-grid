@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.main div {
+    background-color: #F4BFA7;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px gray;
+}
